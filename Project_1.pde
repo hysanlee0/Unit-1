@@ -21,7 +21,7 @@ rect(290, 350, 70, 10);
 
 //leaves
 fill(118, 255, 19);
-strokeWeight(0);
+noStroke();
 ellipse(200, 250, 150, 150); //apple placement x=150-300 y=150-350
 ellipse(300, 250, 150, 150);
 ellipse(250, 200, 150, 150);
@@ -52,11 +52,30 @@ line(460, 90, 445, 150);
 
 //clouds
 fill(255, 255, 255);
-strokeWeight (0);
-stroke (0, 0, 0);
+noStroke();
 ellipse(100, 50, 100, 50);
 ellipse(150, 25, 100, 50);
 ellipse(190, 50, 100, 50);
 ellipse(300, 100, 100, 50);
 ellipse(350, 75, 100, 50);
 ellipse(400, 100, 100, 50);
+
+//flowers
+stroke(1);
+strokeWeight(1);
+fill(0, 0, 0);
+line(75, 375, 75, 400);
+line(25, 375, 25, 400);
+line(200, 375, 200, 400);
+line(300, 375, 300, 400);
+line(340, 375, 340, 400);
+line(420, 375, 420, 400);
+ellipse(75, 375, 15, 15);
+ellipse(25, 375, 15, 10);
+ellipse(200, 375, 15, 15);
+ellipse(300, 375, 15, 15);
+ellipse(340, 375, 15, 15);
+ellipse(420, 375, 15, 15);
+fill(247, 240, 12);
+ellipse(75, 365, 15, 15);
+ellipse(65, 380, 15, 15);
